@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Sidebar from "./components/Sidebar"
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello world</h1>
+    <main className="flex min-h-screen max-w-7xl mx-auto">
+      <Sidebar />
     </main>  
   )
 }
