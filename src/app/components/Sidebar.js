@@ -13,7 +13,7 @@ import {
 } from "@heroicons/react/24/outline";
 const Sidebar = () => {
   return (
-    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed">
+    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
       <div className="hover p-0 hover:bg-blue-100 xl:px-2 xl:py-2 flex justify-center h-auto py-3">
         <Image
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1200px-Logo_of_Twitter.svg.png"
